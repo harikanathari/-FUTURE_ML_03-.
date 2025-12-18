@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "name": "Greeting",
+      "training_phrases": ["Hi", "Hello", "Hey there", "Good morning"],
+      "responses": ["Hi! How can I help today?", "Hello — what can I do for you?"]
+    },
+    {
+      "name": "Order Status",
+      "training_phrases": ["Where is my order?", "Track my order", "Order status", "Track order 12345"],
+      "parameters": ["order_number"],
+      "responses": ["Can I have your order number?", "Order {order_number}: In transit, expected delivery in 2 days."]
+    },
+    {
+      "name": "Refund Policy",
+      "training_phrases": ["How do I get a refund?", "Return policy", "Refund"],
+      "responses": ["You can request a refund within 30 days. Would you like the steps?"]
+    },
+    {
+      "name": "Shipping Info",
+      "training_phrases": ["When will my order arrive?", "Shipping time", "Delivery ETA"],
+      "responses": ["Standard shipping takes 3-5 business days. Express is 1-2 days."]
+    }
+  ]
+}
